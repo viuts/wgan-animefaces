@@ -62,6 +62,6 @@ saved
 *.onnx
 *.pt
 .ipynb_checkpoints
-converted
 data
 __pycache__
+converted

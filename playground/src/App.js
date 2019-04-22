@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Generator from './sevices/tf_generator'
 
@@ -41,7 +40,7 @@ class App extends Component {
     return (
       <div className="App">
          <div className="center"><h1 className="text">WGAN-GP Anime Icon Generator</h1></div>
-         <img src="./images/demo.png"></img>
+         <img src="./images/demo.png" alt="demo"></img>
          {this.renderGrid()}
          <div className="center">
           <button onClick={() => this.generateImages()}>Generate</button>
