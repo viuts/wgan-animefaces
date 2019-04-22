@@ -1,0 +1,22 @@
+.App {
+  background-color: #282c34;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.center {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gird-container {
+  display: 'grid'
+}
+
+.text {
+  display:block;
+  color: white;
+}
